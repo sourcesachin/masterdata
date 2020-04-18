@@ -14,14 +14,3 @@ app.get('/', (req, res)=>{
 
 io.of('/stream').on('connection', stream);
 server.listen(3000);
-
-
-
-
-
-
-
-
-
-
-
